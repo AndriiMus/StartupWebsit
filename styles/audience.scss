@@ -1,0 +1,132 @@
+.audience {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-light-blue;
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+        color: $text-color-dark;
+        margin-top: 50px;
+
+        @include for-large-up {
+            margin-top: 108px;
+        }
+    }
+    &__title {
+        font-weight: 700;
+        color: $text-color-dark;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.357143px;
+        margin: 0;
+        margin-top: 17px;
+        margin-bottom: 18px;
+
+        @include for-large-up {
+            width: 555px;
+            margin: 0 auto;
+            margin-top: 24px;
+            margin-bottom: 30px;
+            font-size: 56px;
+            line-height: 56px;
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+    }
+
+    &__description {
+        margin: 0 15px 30px 15px;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: $text-color-dark;
+
+        @include for-large-up{
+            width: 555px;
+            margin: 0 auto;
+            margin-bottom: 34px;
+        }
+    }
+    &__action {
+        padding-left: 15px;
+        padding-right: 15px;
+        @include for-large-up{
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .audience__buttom {
+            width: 100%;
+            @include for-large-up{
+                width: 160px;
+
+            }
+            &:last-child {
+                margin-top: 12px;
+                @include for-large-up{
+                    margin-top: 10px;
+    
+                }
+            }
+        }
+    }
+
+    &__figures {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        @include for-large-up{
+         flex-direction: row;   
+         margin-bottom: 100px;
+         margin-top: 111px;
+         justify-content: center;
+        }
+    }
+
+    &__figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 15px;
+        width: 290px;
+        height: 300px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%), #ffffff;
+        background-blend-mode: overlay, normal;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+            inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        
+     @include for-large-up{
+         margin: 0;
+         margin-right: 30px;
+         width: 260px;
+     }
+
+        &:hover {
+            background-color: #3141c5;
+        }
+    }
+
+    &__picture {
+        margin: 0;
+        margin-top: 22px;
+    }
+
+    &__caption {
+        margin: 0;
+        margin-top: 22px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        color: $text-color-dark;
+    }
+}
