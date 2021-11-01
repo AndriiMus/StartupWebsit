@@ -108,6 +108,12 @@
             width: 260px;
         }
 
+          &:last-child{
+              @include for-large-up{
+                  margin: 0;
+              }
+          }
+
         &:hover {
             background-color: #3141c5;
         }

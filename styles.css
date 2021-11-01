@@ -897,6 +897,11 @@
     width: 260px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .audience__figure:last-child {
+    margin: 0;
+  }
+}
 .audience__figure:hover {
   background-color: #3141c5;
 }
