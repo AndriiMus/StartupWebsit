@@ -430,6 +430,7 @@
   .headline__content {
     position: absolute;
     z-index: 1;
+    margin: 0;
   }
   .headline__title {
     width: 754px;
@@ -894,7 +895,7 @@
   .audience__figure {
     margin: 0;
     margin-right: 30px;
-    width: 260px;
+    width: 262px;
   }
 }
 @media screen and (min-width: 1400px) {
