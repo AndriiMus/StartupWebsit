@@ -859,7 +859,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__action .audience__buttom:last-child {
-    margin-top: 10px;
+    margin-left: 10px;
   }
 }
 .audience__figures {
@@ -873,7 +873,7 @@
 @media screen and (min-width: 1400px) {
   .audience__figures {
     flex-direction: row;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
     margin-top: 111px;
     justify-content: center;
   }

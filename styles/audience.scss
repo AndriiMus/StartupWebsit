@@ -67,7 +67,7 @@
             &:last-child {
                 margin-top: 12px;
                 @include for-large-up {
-                    margin-top: 10px;
+                    margin-left: 10px;
                 }
             }
         }
@@ -82,7 +82,7 @@
         margin-bottom: 35px;
         @include for-large-up {
             flex-direction: row;
-            margin-bottom: 100px;
+            margin-bottom: 110px;
             margin-top: 111px;
             justify-content: center;
         }
