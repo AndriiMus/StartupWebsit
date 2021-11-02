@@ -124,6 +124,9 @@
 
 @media screen and (min-width: 400px) {
   .footer {
+    .about-company {
+      margin-top: 0;
+    }
     .terms {
       line-height: 50px;
       margin-top: 0;
@@ -136,7 +139,8 @@
     }
     .social-links {
       margin-left: auto;
-      margin-top: 0px;
+      margin-top: 16px;
+      margin-bottom: 16px;
       &__item {
         margin-left: 20px;
         margin-right: 0;
@@ -159,17 +163,18 @@
     }
 
     .additional-navigation {
-      margin-top: 60px;
-      margin-left: auto;
+      margin-top: 0;
+      margin-left: 126px;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      margin-right: 226px;
       .nav-links__colum {
         margin-top: 0px;
       }
       .nav-links__colum:first-child {
         margin-right: 29px;
       }
-
+      
       .nav-links__title {
         font-weight: bold;
         font-size: 22px;
@@ -181,6 +186,7 @@
         padding: 0;
         margin: 0;
         margin-top: 18px;
+        width: 265px;
         &-item {
           font-size: 18px;
           line-height: 30px;
@@ -195,6 +201,7 @@
       width: 100%;
       margin: 0;
       opacity: 0.1;
+      margin-top: 59px;
     }
 
     .desctop {
@@ -268,12 +275,7 @@
         }
       }
 
-      .additional-navigation {
-        margin-top: 60px;
-        margin-left: auto;
-        display: flex;
-        flex-direction: row;
-      }
+      
     }
   }
 }

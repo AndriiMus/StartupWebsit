@@ -242,6 +242,9 @@
   }
 }
 @media screen and (min-width: 400px) {
+  .footer .about-company {
+    margin-top: 0;
+  }
   .footer .terms {
     line-height: 50px;
     margin-top: 0;
@@ -254,7 +257,8 @@
   }
   .footer .social-links {
     margin-left: auto;
-    margin-top: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
   .footer .social-links__item {
     margin-left: 20px;
@@ -274,10 +278,11 @@
     flex-direction: column;
   }
   .footer .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
+    margin-top: 0;
+    margin-left: 126px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-right: 226px;
   }
   .footer .additional-navigation .nav-links__colum {
     margin-top: 0px;
@@ -296,6 +301,7 @@
     padding: 0;
     margin: 0;
     margin-top: 18px;
+    width: 265px;
   }
   .footer .additional-navigation .nav-links_list-item {
     font-size: 18px;
@@ -308,6 +314,7 @@
     width: 100%;
     margin: 0;
     opacity: 0.1;
+    margin-top: 59px;
   }
   .footer .desctop {
     display: block;
@@ -374,12 +381,6 @@
   }
   .footer-navigation .downloads__app {
     margin-right: 10px;
-  }
-  .footer-navigation .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
   }
 }
 .headline {
