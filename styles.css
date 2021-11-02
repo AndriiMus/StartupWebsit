@@ -860,6 +860,7 @@
 @media screen and (min-width: 1400px) {
   .audience__action .audience__buttom:last-child {
     margin-left: 10px;
+    margin-top: 0;
   }
 }
 .audience__figures {
