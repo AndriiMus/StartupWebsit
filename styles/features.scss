@@ -83,10 +83,8 @@
     position: absolute;
     right: 0;
   }
-}
 
-@media screen and (max-width: 399px) {
-  .features {
+  @include for-large-up {
     display: none;
   }
 }

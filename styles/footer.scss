@@ -113,17 +113,7 @@
       color: rgba(43, 41, 45, 0.6);
     }
   }
-}
-@media screen and (max-width: 399px) {
-  .footer {
-    .logo {
-      display: none;
-    }
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .footer {
+  @include for-large-up {
     .about-company {
       margin-top: 0;
     }
@@ -278,4 +268,10 @@
       
     }
   }
+  @include for-large-down{
+    .logo{
+      display: none;
+    }
+  }
 }
+
