@@ -109,14 +109,17 @@
             width: 262px;
         }
 
-          &:last-child{
-              @include for-large-up{
-                  margin: 0;
-              }
-          }
+        &:last-child {
+            @include for-large-up {
+                margin: 0;
+            }
+        }
 
         &:hover {
             background-color: #3141c5;
+            .audience__caption {
+                color: $text-color-white;
+            }
         }
     }
 
