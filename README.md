@@ -15,4 +15,4 @@ Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
 ### Author
 
-- Some Name
+- Andrii Musykevych
